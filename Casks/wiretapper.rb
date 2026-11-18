@@ -4,13 +4,8 @@ cask "wiretapper" do
 
   url "https://github.com/printMoney/wiretapper/releases/download/v#{version}/Wiretapper.zip"
   name "Wiretapper"
-  desc "Record your Mac's internal audio from the menu bar"
+  desc "Record internal system audio from the menu bar"
   homepage "https://github.com/printMoney/wiretapper"
-
-  livecheck do
-    url :url
-    strategy :github_releases
-  end
 
   depends_on macos: :sonoma
 
