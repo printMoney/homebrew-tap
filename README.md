@@ -36,6 +36,22 @@ Update with `brew upgrade --cask wiretapper`. Uninstall with `brew uninstall --c
 
 Requires macOS 14.4 or newer.
 
+## ritmos
+
+[ritmos](https://github.com/printMoney/ritmos-personal-script) is a personal script that builds QuickToggles, a menu bar app that keeps your display awake, switches F1–F12 to standard function keys and toggles Night Mode.
+
+```bash
+brew install ritmos
+```
+
+```bash
+ritmos
+```
+
+`ritmos` compiles QuickToggles on your Mac, installs it to `~/Applications` and opens it. Update with `brew upgrade ritmos`, then run `ritmos` again. Uninstall with `brew uninstall ritmos` and delete `~/Applications/QuickToggles.app`.
+
+Use at your own risk: it's shared as-is, with no warranty. Needs the Xcode Command Line Tools.
+
 ## First launch
 
 > Releases aren't notarized by Apple yet. The first time you open one of these apps, macOS may ask whether to open it:
