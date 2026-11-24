@@ -1,8 +1,8 @@
 class Ritmos < Formula
   desc "Builds QuickToggles, a menu bar app with handy Mac toggles"
   homepage "https://github.com/printMoney/ritmos-personal-script"
-  url "https://github.com/printMoney/ritmos-personal-script/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "fe16a5bc0843eb2b7dc7b8a5ea1e85cf86eb01ff53e7a997ae92fe44ba54633b"
+  url "https://github.com/printMoney/ritmos-personal-script/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "6f2c47cc8dcad63ad1efcd2d936712cea6ff84fdbc703fe764011cbc0a15e083"
   license "MIT"
   head "https://github.com/printMoney/ritmos-personal-script.git", branch: "main"
 
